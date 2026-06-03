@@ -1,0 +1,25 @@
+{
+  "name": "Silk Web",
+  "short_name": "Silk Web",
+  "description": "Создание сайтов, реклама и автоматизация бизнеса в Алматы и Казахстане.",
+  "lang": "ru-KZ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030405",
+  "theme_color": "#030405",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/header-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "productivity", "marketing"]
+}

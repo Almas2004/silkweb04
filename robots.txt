@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /robots.zip
+
+Sitemap: https://silkweb.kz/sitemap.xml
