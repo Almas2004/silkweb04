@@ -1,0 +1,4 @@
+Contact: https://wa.me/77000000000
+Preferred-Languages: ru, en
+Canonical: https://silkweb.kz/.well-known/security.txt
+Policy: https://silkweb.kz/

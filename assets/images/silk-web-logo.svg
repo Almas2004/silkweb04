@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 623 208" role="img" aria-labelledby="title desc">
+  <title id="title">Silk Web logo</title>
+  <desc id="desc">Glowing Silk Web logo on a black background.</desc>
+  <defs>
+    <linearGradient id="markTop" x1="54" y1="112" x2="161" y2="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#73e8ff"/>
+      <stop offset="1" stop-color="#80f8ff"/>
+    </linearGradient>
+    <linearGradient id="markBottom" x1="57" y1="154" x2="165" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6fa4ff"/>
+      <stop offset=".45" stop-color="#6c83ff"/>
+      <stop offset="1" stop-color="#8b5cff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.35 0 0 0 0 0.9 0 0 0 0 1 0 0 0 .8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="623" height="208" fill="#030405"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path
+      d="M144 28c12-1 17 8 15 20-1 7-6 14-14 18L75 101c-11 6-21 2-23-11-2-14 5-27 18-34l74-28z"
+      stroke="url(#markTop)"
+      stroke-width="4"/>
+    <path
+      d="M126 83c19 2 34 9 40 22 7 16-2 30-23 42l-60 25c-11 4-22 0-25-10-3-9 2-18 12-22l78-31"
+      stroke="url(#markBottom)"
+      stroke-width="4"/>
+    <path
+      d="M67 111c8 5 18 8 28 9"
+      stroke="#77e9ff"
+      stroke-width="3"
+      opacity=".9"/>
+    <path
+      d="M59 148l90-37"
+      stroke="#6c90ff"
+      stroke-width="3"
+      opacity=".9"/>
+  </g>
+
+  <text
+    x="258"
+    y="111"
+    fill="#f7f7f7"
+    font-family="Montserrat, Avenir Next, Helvetica Neue, Arial, sans-serif"
+    font-size="34"
+    font-weight="300"
+    letter-spacing="19"
+    filter="url(#textGlow)">SILK WEB</text>
+
+  <line x1="0" y1="199" x2="623" y2="199" stroke="#1b1c1f" stroke-width="1"/>
+</svg>
